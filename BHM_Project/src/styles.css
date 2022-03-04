@@ -1,7 +1,9 @@
 @import "compass/css3";
 /*Transitions of pages*/
-.Homepage{
+#Homepage{
   animation: transitionIn 2s;
+  position: relative;
+  top: 75px;
 }
 @keyframes slideInR {
   from{
@@ -112,6 +114,15 @@ figcaption{
 #artist{
   font-size:15px;
 }
+/*Sticky Homepage Nav Bar*/
+#HomeNav{
+  top: 0;
+  z-index: 5;
+  background-image: url('../images/texture.jpg');
+  position: fixed;
+  width: 100%;
+}
+
 /*black bar*/
 ul{
   list-style-type: none;
@@ -293,6 +304,8 @@ footer{
 *{
   box-sizing: border-box;
 }
+
+/* Page 6 Overlay Text*/
 .pgSixCont{
   position: relative;
   width: 100%;
