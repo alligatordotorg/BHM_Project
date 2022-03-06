@@ -53,16 +53,16 @@ body {
    background-image: url('../images/texture.jpg');
 }
 p{
-    font-family:'Alata';
+    font-family:'Arial';
 }
 h2{
-      font-family: 'Alata';
+    font-family: 'Open Sans';
 }
 #logo-title{
-  font-family: 'Advent Pro';
+  font-family: 'Open Sans';
 }
-figcaption{
-    font-family: 'Alata';
+#figcaption{
+    font-family:'Arial';
 }
 .logo{
   max-width: 40%;
@@ -167,7 +167,7 @@ li a{
   clear: both;
 }
 #caption{
-  font-size: 12px;
+  font-size: 15px;
   text-align:center;
 }
 #text{
@@ -324,4 +324,14 @@ footer{
 
 .pgSixCont:hover .overlay{
   height: 115%;
+}
+
+.pg2ImgPhoto{
+  position: relative;
+  width: 100%;
+}
+
+.pg2ImgPhoto:hover .overlay{
+  height:auto;
+  padding: 3%;
 }
